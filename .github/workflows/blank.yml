@@ -23,8 +23,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
 
     steps:
-      - name: Install test
-      
       - uses: Jimver/cuda-toolkit@v0.2.22
         id: cuda-toolkit
         with:
