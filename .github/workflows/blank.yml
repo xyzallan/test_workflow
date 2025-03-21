@@ -26,5 +26,5 @@ jobs:
       id: cuda-toolkit
       with:
         cuda: '12.5.0'
-    run: echo "Cuda install location: ${{ steps.cuda-toolkit.outputs.CUDA_PATH }}"
-    run: nvcc -V
+      run: echo "Cuda install location: ${{ steps.cuda-toolkit.outputs.CUDA_PATH }}"
+      run: nvcc -V
